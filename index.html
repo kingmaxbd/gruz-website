@@ -10,37 +10,15 @@
     <h1>Welcome to My Website</h1>
     <p>This is a sample paragraph.</p>
 
-    <noscript>
-        <p style="color: red;">Для коректної роботи форми увімкніть JavaScript у вашому браузері.</p>
-    </noscript>
-
-    <form id="vehicleForm">
+    <h2>Оформлення заявки на перевезення вантажу</h2>
+    <form id="vehicleForm" action="next-step.html" method="GET">
         <label for="vehicleType">Оберіть тип авто:</label>
-        <select id="vehicleType" name="vehicleType">
+        <select id="vehicleType" name="vehicleType" required>
             <option value="tent">Тентоване</option>
             <option value="metal">Цільнометалеве</option>
         </select>
-
-        <div id="tentOptions" hidden>
-            <label>Які потрібні завантаження:</label>
-            <input type="checkbox" name="loading" value="side"> Бокове
-            <input type="checkbox" name="loading" value="top"> Верхнє
-            <input type="checkbox" name="loading" value="rear"> Заднє
-            <br>
-            <label>
-                <input type="checkbox" name="hydraulicLift"> Чи потрібен гідроборт
-            </label>
-        </div>
-
-        <div id="metalOptions" hidden>
-            <label>
-                <input type="checkbox" id="isRefrigerated" name="isRefrigerated"> Чи потрібен реф
-            </label>
-            <div id="temperatureOption" style="display: none;">
-                <label for="temperature">Яка температура:</label>
-                <input type="number" id="temperature" name="temperature" placeholder="°C">
-            </div>
-        </div>
+        <br><br>
+        <button type="submit">Прийняти</button>
     </form>
 </body>
 </html>
