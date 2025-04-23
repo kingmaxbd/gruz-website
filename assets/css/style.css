@@ -7,10 +7,10 @@ body, h1, h2, h3, p, ul, ol {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('../images/trucking-background.jpg'); /* Укажите путь к изображению */
-    background-size: cover; /* Масштабирование изображения */
-    background-position: center; /* Центрирование изображения */
-    background-repeat: no-repeat; /* Отключение повторения */
+    background-image: url('../images/background.jpg'); /* Оновлений шлях до зображення */
+    background-size: cover; /* Масштабування зображення */
+    background-position: center; /* Центрування зображення */
+    background-repeat: no-repeat; /* Отключення повторення */
 }
 
 h1, h2, h3 {
